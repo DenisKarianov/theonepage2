@@ -1,0 +1,43 @@
+:root {
+    --color_bg1: #d9ff66;
+    --color_bg2: #00ff00;
+    --color_btn: #33ff33;
+    --color_btn2: #ffad33;
+    --color_font: #003300;
+}
+
+.top-buffer150 { margin-top:150px; }
+
+.top-buffer50 { margin-top:50px; }
+
+section {
+    padding: 200px 0;
+}
+
+.gradient {
+    background: var(--color_bg1);
+    background: -moz-linear-gradient(left,  var(--color_bg1) 0%, var(--color_bg2) 100%);
+    background: -webkit-linear-gradient(left,  var(--color_bg1) 0%,var(--color_bg2) 100%);
+    background: linear-gradient(to right,  var(--color_bg1) 0%,var(--color_bg2) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr=var(--color_bg1), endColorstr=var(--color_bg2),GradientType=1 );
+}
+
+.color_font {
+    color: var(--color_font)
+}
+
+.color_bg1 {
+    color: var(--color_bg1)
+}
+
+.btn_self {
+    background-color: var(--color_btn2);
+}
+
+.btn_self:hover {
+    background-color: var(--color_btn);
+}
+
+img.label {
+    border-radius: 50%;
+}
